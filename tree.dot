@@ -1,17 +1,17 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
-0 [label=<Schiller &le; 0.5<br/>gini = 0.5<br/>samples = 686<br/>value = [343.0, 343.0]<br/>class = True>, fillcolor="#ffffff"] ;
-1 [label=<Dx:CIN &le; 0.5<br/>gini = 0.206<br/>samples = 633<br/>value = [332.927, 43.974]<br/>class = False>, fillcolor="#e89253"] ;
+0 [label=<Schiller &le; 0.5<br/>gini = 0.464<br/>samples = 432<br/>value = [351.482, 202.282]<br/>class = False>, fillcolor="#f4caab"] ;
+1 [label=<Smokes &le; 0.5<br/>gini = 0.049<br/>samples = 401<br/>value = [338.759, 8.795]<br/>class = False>, fillcolor="#e6843e"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label=<gini = 0.137<br/>samples = 627<br/>value = [330.807, 26.385]<br/>class = False>, fillcolor="#e78b49"] ;
+2 [label=<gini = 0.056<br/>samples = 348<br/>value = [294.227, 8.795]<br/>class = False>, fillcolor="#e6853f"] ;
 1 -> 2 ;
-3 [label=<gini = 0.192<br/>samples = 6<br/>value = [2.121, 17.59]<br/>class = True>, fillcolor="#51a9e8"] ;
+3 [label=<gini = 0.0<br/>samples = 53<br/>value = [44.532, 0.0]<br/>class = False>, fillcolor="#e58139"] ;
 1 -> 3 ;
-4 [label=<Age &le; 0.049<br/>gini = 0.063<br/>samples = 53<br/>value = [10.073, 299.026]<br/>class = True>, fillcolor="#40a0e6"] ;
+4 [label=<Hormonal Contraceptives (years) &le; 0.567<br/>gini = 0.116<br/>samples = 31<br/>value = [12.723, 193.487]<br/>class = True>, fillcolor="#46a3e7"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label=<gini = 0.0<br/>samples = 3<br/>value = [1.59, 0.0]<br/>class = False>, fillcolor="#e58139"] ;
+5 [label=<gini = 0.112<br/>samples = 30<br/>value = [12.193, 193.487]<br/>class = True>, fillcolor="#45a3e7"] ;
 4 -> 5 ;
-6 [label=<gini = 0.054<br/>samples = 50<br/>value = [8.482, 299.026]<br/>class = True>, fillcolor="#3fa0e6"] ;
+6 [label=<gini = -0.0<br/>samples = 1<br/>value = [0.53, 0.0]<br/>class = False>, fillcolor="#e58139"] ;
 4 -> 6 ;
 }
